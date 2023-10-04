@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>KNOW MORE</title>
+	<link rel="stylesheet" href="rwd.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+th{
+  background-color: #fb2274;
+}
+</style>
+</head>
+<body>
+
+
+  
+<div class="main_container" id="home">
+	
+	<div class="navbar">
+		<div class="logo">
+			<a href="homepage.html">Dignity-A ngo for farmers.</a>
+		</div>
+		<div class="navbar_items">
+			<ul>
+				<li><a href="homepage.html">home</a></li>
+				<li><a href="finalsignup.html">signup</a></li>
+				<li><a href="finaldonation.html">donate</a></li>
+				<li><a href="finallogin.html">shop</a></li>
+				<li><a href="finalfeedback.html">Feedback</a></li>
+				<li><a href="know more.html">Know more</a></li>
+				<li><a href="finalcontact.html">Contact Us</a></li>
+				<li><a href="finalaboutus.html">About us</a></li>
+				<li><a href="finalprofarmers.html">Farmers</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="cof" id="cof">
+		<h1>Condition Of Farmers</h1>
+		<p> Agriculture contributes to nearly one third of India GDP.
+    It provides livelihood for the major Indian population.
+    Some of the challenges agriculture faces are old, some are new.
+    Government must give agriculture the same importance as industries.
+        If the proper care won't be taken, the words like <strong>"small farmer"</strong> will become a history.
+    The problems of Indian farmers are even bigger than what government anticipates.
+    No one thinks agriculture as a respectful profession anymore.
+    Gone are the days when people used to prefer farming over government job.
+    Now even farmers don't want their kids to become a farmer .
+    Young people going away from farming.
+    Many farmers are not in farming by choice but because it's the only way they can earn their bread.
+    Many have no knowledge of recent agriculture developments .
+    They still rely on the knowledge passed over their ancestors.
+    So awareness about new developments is very much necessary.
+    Government has started many programs to spread awareness including time to time "krishi mela" but active participation of farmers are also required for its success .
+    Farmers lack motivation.
+    People like you are needed to motivate these farmers to do their work with dedication.
+    For this we need to support them in every way possible.<br>Farmer suicides in India refers to the national catastrophe of farmers committing suicide since the 1990s, often by drinking pesticides, due to their inability to repay loans mostly taken from landlords and banks.
+
+</p>
+
+
+<video width="50%"controls>
+  <source src="Farmer.mp4" type="video/mp4">
+  <source src="Farmer.ogg" type="video/ogg">
+</video><br>	
+<div class="row">
+  <div class="column">
+    <img src="farmer1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="farmer2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="farmer3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</div>
+</div>
+<div class="cof" id="cof">
+
+	<div class="work" id="work">
+        <h1 class="title">OUR WORK</h1>
+        <p>We help people like you who wnat to contibute to the growth of the farmers of our country by making sure your donation securely reaches to the farmers. You can also buy the good and products directly from farmers without any intervention of any middleman which will profit the farmers.</p>
+        </div>
+
+         <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="1.jpg" style="width:100%" height="550">
+    <div class="text">Farmers in India</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="2.jpg" style="width:100%" height="550">
+    <div class="text">Farmers in India</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="3.jpg" style="width:100%" height="550">
+    <div class="text">Farmers in India</div>
+  </div>
+
+  <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="4.jpg" style="width:100%" height="550">
+      <div class="text">Farmers in India</div>
+   </div>
+
+  <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="5.jpg" style="width:100%" height="550">
+        <div class="text">Farmers in India</div>
+   </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+</div>
+<script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() 
+{
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xhttp.open("GET", "schemes.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Name</th><th>Description</th>";
+  var x = xmlDoc.getElementsByTagName("scheme");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+     x[i].getElementsByTagName("description")[0].childNodes[0].nodeValue +
+    "</td>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+
+</script>
+
+
+
+<button type="button" onclick="loadDoc()">Click To See Government's Schemes For Farmers</button>
+<br><br>
+<table id="demo"></table>
+
+<br><br><br>
+
+<div class="footer">
+    <a href="#">© 2020 Dignity LLC</a><br><br>
+    <a href="https://www.facebook.com/" class="fa fa-facebook" text-align="right"></a>
+    <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="scheme.xsl"?>
+<govscheme>
+ <scheme>
+  <name>E-NAM</name>
+  <description>Integration of APMCs across the country through a common online market platform to facilitate pan-India trade in agriculture commodities, providing better price discovery through transparent auction process based on quality of produce along with timely online payment.</description>
+</scheme>
+<scheme>
+  <name>National Mission For Sustainable Agriculture(NMSA)</name>
+  <description>National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation.NMSA will cater to key dimensions of 'Water use efficiency', 'Nutrient Management' and 'Livelihood diversification' through adoption of sustainable development pathway by progressively shifting to environmental friendly technologies, adoption of energy efficient equipments, conservation of natural resources, integrated farming, etc.</description>
+</scheme>
+<scheme>
+  <name>Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</name>
+  <description>Har Khet ko Pani "Prime Minister Krishi Sinchayee Yojana" Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation 'Har Khet ko pani' and improving water use efficiency 'More crop per drop' in a focused manner with end to end solution on source creation, distribution, management, field application and extension activities.</description>
+</scheme>
+<scheme>
+  <name>Paramparagat Krishi Vikas Yojana (PKVY)</name>
+  <description>The aim is to form 10,000 clusters over the next three years and bring about five lakh acres of agricultural area under organic farming. The government also intends to cover the certification costs and promote organic farming through the use of traditional resources.To avail the scheme, each cluster or group must have 50 farmers willing to take up organic farming under the PKVY and possess a total area of at least 50 acres. Each farmer enrolling in the scheme will be provided INR 20,000 per acre by the government spread over three years time.</description>
+</scheme>
+<scheme>
+  <name>Pradhan Mantri Fasal Bima Yojana (PMFBY)</name>
+  <description>Objectives
+1. To provide insurance coverage and financial support to the farmers in the event of failure of any of the notified crop as a result of natural calamities, pests and diseases.
+2. To stabilise the income of farmers to ensure their continuance in farming.
+3. To encourage farmers to adopt innovative and modern agricultural practices.
+4. To ensure flow of credit to the agriculture sector.</description>
+</scheme>
+<scheme>
+  <name>Gramin Bhandaran Yojna</name>
+  <description>Objective of this Scheme:
+1.Create scientific storage capacity with allied facilities in rural areas.
+2.To meet the requirements of farmers for storing farm produce, processed farm produce and agricultural inputs.
+3.Promotion of grading, standardization and quality control of agricultural produce to improve their marketability.
+4.Prevent distress sale immediately after harvest by providing the facility of pledge financing and marketing credit by strengthening agricultural marketing infrastructure in the country.</description>
+</scheme>
+<scheme>
+  <name>Scheme on Fisheries Training and Extension</name>
+  <description>It was launched to provide training for fishery sector so as to assist in undertaking fisheries extension programmes effectively.</description>
+</scheme>
+<scheme>
+  <name>National Scheme on Welfare of Fishermen</name>
+  <description>This scheme was launched to provide financial assistance to fishers for construction of house, community hall for recreation and common working place. It also aims to install tube-wells for drinking water and assistance during lean period through saving cum relief component.</description>
+</scheme>
+<scheme>
+  <name>Micro Irrigation Fund (MIF)</name>
+  <description>The government approved a dedicated Rs5,000 crore fund to bring more land area under micro-irrigation as part of its objective to boost agriculture production and farmers income.The fund has been set up under NABARD, which will provide this amount to states on concessional rate of interest to promote micro-irrigation, which currently has a coverage of only 10 million hectares as against the potential of 70 million hectares.</description>
+</scheme>
+</govscheme>

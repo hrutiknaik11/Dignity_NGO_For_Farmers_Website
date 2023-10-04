@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+   background:url('background.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color:url('background.jpg');
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #f0f0f0;
+  background-color:url('background.jpg');
+   color: #292981;
+  padding: 20px 40px;
+}
+
+.form {
+  padding: 30px 40px; 
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.radio
+{
+  margin-top: 20px;
+  padding:20px 20px 20px 20px;
+}
+.form button {
+  background-color: 0;
+  border: 2px solid #8e44ad;
+  border-radius: 4px;
+    color:  #8e44ad;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+  width: 40%;
+}
+.mess{
+  width: 100%
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+   background:url('background.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color:url('background.jpg');
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #f0f0f0;
+   color:  #fb2274;
+  padding: 20px 40px;
+}
+
+.form {
+  padding: 30px 40px; 
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.radio
+{
+  margin-top: 20px;
+  padding:20px 20px 20px 20px;
+}
+.form button {
+  background-color: 0;
+  border: 2px solid #fb2274;
+  border-radius: 4px;
+    color:  #fb2274;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 5px;
+  width: 40%;
+}
+.mess{
+  width: 100%
+
+}
+

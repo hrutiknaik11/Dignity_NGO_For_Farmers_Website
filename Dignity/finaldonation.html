@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donation Form</title>
+	<script>type=text/javascript</script>
+	<link rel="stylesheet" href="do.css">
+</head>
+<body onload="document.registration.userid.focus();">
+	<div class="main_container" id="home">
+	
+	<div class="navbar">
+		<div class="logo">
+			<a href="homepage.html">Dignity-A ngo for farmers.</a>
+		</div>
+		
+		<div class="navbar_items">
+			<ul>
+				<li><a href="homepage.html">home</a></li>
+				<li><a href="finalsignup.html">signup</a></li>
+				<li><a href="finaldonation.html">donate</a></li>
+				<li><a href="finallogin.html">shop</a></li>
+				<li><a href="finalfeedback.html">Feedback</a></li>
+				<li><a href="know more.html">Know more</a></li>
+				<li><a href="finalcontact.html">Contact Us</a></li>
+				<li><a href="finalaboutus.html">About us</a></li>
+				<li><a href="finalprofarmers.html">Farmers</a></li>
+			</ul>
+		</div>
+	</div><br>
+	<div class="donation" id="donation">
+		<h1>Donation Form</h1>
+		<div class="form_wrapper">	
+	<form action="donation.php" method="POST" name="registration" onSubmit="return formValidation();" class="form">	
+		<div class="form_input">	
+
+			<input type="text" placeholder="Name" name="fname" >
+		</div>	
+
+        <div class="form_input">
+			<input type="email"  placeholder="abc@xyz.com" name="email" >
+		</div>	
+
+		<div class="form_input">
+			<input type="number" placeholder="10 digit mobile number" name="contact" minlength="10" maxlength="10"> 
+		</div>	
+
+		<div class="form_input">
+			<input type="number" placeholder="Enter Donation Amount" name="donation" >
+		</div>	
+
+		<label for="payment"><b>Select Payment Mode</b></label><br><br>
+        
+		<input type="radio" name="mode" value="Paytm">
+  		<label for="mode1"> Paytm</label><br>
+ 	    <input type="radio" name="mode" value="Credit card">
+  		<label for="mode2"> Credit/Debit Card </label><br><br>
+  		<div class="btn">
+				<input type="submit" name="save" value="Submit" />
+			</div><br>
+		<h4>You are donating towards a good cause!<br>Thank you for your support.</h4>
+	</form>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function formValidation()
+{
+var uname = document.registration.fname;
+var uemail = document.registration.email;
+var uzip = document.registration.no;
+var uid = document.registration.userid;
+var donate = document.registration.donation;
+if(allLetter(uname))
+{
+if(ValidateEmail(uemail))
+{
+if(allnumeric(uzip))
+{
+if(allnumeric1(donate))
+{  
+}
+}
+}
+}
+return false;
+}
+function allLetter(uname)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(uname.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Username must have alphabet characters only');
+uname.focus();
+return false;
+}
+}
+
+function allnumeric(uzip)
+{ 
+var numbers = /^[0-9]+$/;
+if(uzip.value.match(numbers))
+{
+return true;
+}
+else
+{
+alert('Number must have numeric characters only');
+uzip.focus();
+return false;
+}
+}
+function allnumeric1(donate)
+{ 
+var numbers = /^[0-9]+$/;
+if(donate.value.match(numbers))
+{
+return true;
+}
+else
+{
+alert('Donation must have numeric characters only');
+donate.focus();
+return false;
+}
+}
+function ValidateEmail(uemail)
+{
+var mailformat = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+if(uemail.value.match(mailformat))
+{
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+uemail.focus();
+return false;
+}
+}
+</script>
+</body>
+</html>
