@@ -27,7 +27,7 @@ This README provides an overview of the project's features and how to use them.
 # Getting Started
 To deploy and run this web application locally, follow these steps:
 1. Clone this repository to your local machine:
-   `git clone https://github.com/your-username/farmers-empowerment-website.git`
+   `git clone https://github.com/hrutiknaik11/Dignity_NGO_For_Farmers_Website.git`
 
 ## Contributing
 We welcome contributions from the community to improve and enhance this project. 
